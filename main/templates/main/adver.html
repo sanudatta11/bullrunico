@@ -1,0 +1,31 @@
+{% extends "main/base.html" %}
+{% load static %}
+{% block content %}
+<div style="margin-top:40px;">
+    <div style="text-align:center;">
+        <h4>ADVERTISING</h4>
+    </div>
+    <div style="width:80%; margin:20px auto; text-align:left;">
+        <h6>Ad campaign:</h6>
+        <ul>
+            <li> Only have one banner ad slot with no rotation.</li>
+            <li> Excellent visibility, at the top;</li>
+            <li> Direct link to your website;</li>
+            <li> Your project will be visible on each page of our website;</li>
+            <li> Individual listing service included;</li>
+            <li> 0,1 BTC/ month.</li>
+        </ul>
+        <h6>Individual listing:</h6>
+        <ul>
+            <li> Visibility on the main page;</li>
+            <li> Single page with project details;</li>
+            <li> listing will be permanent.</li>
+            <li> 0,015 BTC;</li>
+            <li> We accept BTC, ETH and altcoins as payment.</li>
+        </ul>
+    </div>
+    {% load custom_tags %}
+    {% contact %}
+</div>
+
+{% endblock %}
